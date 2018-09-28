@@ -17,6 +17,8 @@ from keras.layers import Input, Dense, Flatten
 
 from prednet import PredNet
 from data_utils import SequenceGenerator
+
+# change directory of kitti datasets, check kitti_settings.py for details
 from kitti_settings import *
 
 
